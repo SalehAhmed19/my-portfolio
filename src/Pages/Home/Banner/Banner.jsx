@@ -12,7 +12,7 @@ const Banner = () => {
       className="flex justify-between"
     >
       <div className="flex flex-col items-center justify-center w-full lg:w-1/2">
-        <div className="pl-3 lg:pl-20">
+        <div className="pl-3 lg:pl-20 py-32 lg:py-0">
           <h3 className="text-gray-400 font-secondary uppercase mb-5">
             <span className="mr-3">W e l c o m e</span>{" "}
             <span className="mr-3">t o</span> <span className="mr-3">m y</span>{" "}
@@ -26,6 +26,8 @@ const Banner = () => {
               loop={Infinity}
               wrapper="b"
               steps={[
+                "MERN Stack Developer",
+                1000,
                 "Web Developer",
                 1000,
                 "Frontend Developer",

@@ -4,11 +4,11 @@ import img from "../../../Assets/Img/s.jpg";
 const About = () => {
   return (
     <div style={{ background: "#191919" }} className="flex">
-      <div>
+      <div className="hidden lg:block">
         <img src={img} alt="" />
       </div>
       <div className="p-10">
-        <h2 className="font-bold text-6xl font text-white">About Me</h2>
+        <h2 className="font-bold text-5xl font text-white">About Me</h2>
         <p className="font text-xl text-gray-400">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered <a href="#">alteration</a> in some form, by

@@ -1,0 +1,20 @@
+[
+    {
+      "_id": 1,
+      "img": "https://i.ibb.co/cw4mrkd/react.png",
+      "service": "Working with ReactJS",
+      "des":"Experience working with ReactJS. Proficient in creating a website of good performance with ReactJS."
+    },
+    {
+      "_id": 2,
+      "img": "https://i.ibb.co/gTKzBnP/website-01.png",
+      "service": "Website Development",
+      "des":"Proficient in creating complete website landing pages with HTML, CSS, JavaScript. Responsive website creation with various CSS frameworks (eg Bootstrap, Tailwind CSS) as well as Vanilla CSS."
+    },
+    {
+      "_id": 3,
+      "img": "https://i.ibb.co/QM02khp/fullstack.png",
+      "service": "Full Stack Development",
+      "des":"Proficient in creating fullstack projects with the combination of ReactJS, NodeJS, MongoDB."
+    }
+  ]
