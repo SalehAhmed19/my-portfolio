@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, Outlet } from "react-router-dom";
 import img from "../../../Assets/Img/s.jpg";
 
 const About = () => {
@@ -21,9 +22,15 @@ const About = () => {
         <div className="my-4 font">
           <h3 className="text-white font-bold text-3xl">Skills</h3>
           <div className="text-white flex">
-            <p className="pl-7">Expert</p>
-            <p className="pl-7">Comfortable</p>
-            <p className="pl-7">Familier</p>
+            <Link to="/" className="pl-7">
+              Expert
+            </Link>
+            <Link to="/comfortable" className="pl-7">
+              Comfortable
+            </Link>
+          </div>
+          <div className="pl-7">
+            <Outlet />
           </div>
         </div>
       </div>
