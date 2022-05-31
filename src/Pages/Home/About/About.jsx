@@ -20,7 +20,7 @@ const About = () => {
           believable. If you are going to use a passage of Lorem Ipsum,
         </p>
         <div className="my-4 font">
-          <h3 className="text-white font-bold text-3xl">Skills</h3>
+          <h3 className="text-white font-bold text-2xl">Skills</h3>
           <div className="text-white flex">
             <Link to="/" className="pl-7">
               Expert
