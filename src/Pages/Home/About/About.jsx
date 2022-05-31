@@ -4,7 +4,7 @@ import img from "../../../Assets/Img/s.jpg";
 const About = () => {
   return (
     <div
-      style={{ background: "#191919", height: "80vh" }}
+      style={{ background: "#191919", height: "60vh" }}
       className="flex items-center lg:px-20"
     >
       <div className="hidden lg:block">
