@@ -3,7 +3,10 @@ import img from "../../../Assets/Img/s.jpg";
 
 const About = () => {
   return (
-    <div style={{ background: "#191919" }} className="flex">
+    <div
+      style={{ background: "#191919", height: "80vh" }}
+      className="flex items-center lg:px-20"
+    >
       <div className="hidden lg:block">
         <img src={img} alt="" />
       </div>

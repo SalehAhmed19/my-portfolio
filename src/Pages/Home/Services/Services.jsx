@@ -19,7 +19,7 @@ const Services = () => {
           the majority have suffered alteration.
         </p>
       </div>
-      <div className="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:mx-5">
+      <div className="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {services.map((service) => (
           <Service key={service._id} service={service} />
         ))}

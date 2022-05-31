@@ -1,8 +1,9 @@
 import React from "react";
+import "./Service.css";
 
 const Service = ({ service }) => {
   return (
-    <div style={{ background: "#191919" }} class="card w-96 shadow-xl">
+    <div class="card w-96 shadow-xl mx-auto hoverEffect bg">
       <figure>
         <img className="w-28 lg:w-36 p-6" src={service.img} alt="Shoes" />
       </figure>

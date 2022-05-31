@@ -19,7 +19,7 @@ const Banner = () => {
             <span className="mr-3">w o r l d</span>
           </h3>
           <h1 className="text-white font-bold text-3xl lg:text-5xl font-heading">
-            Hi, I'm Saleh Ahmed
+            Hi, I'm Saleh Ahmed Mahin
           </h1>
           <h1 className="text-red-500 font-bold text-3xl lg:text-5xl font-heading">
             <Typical
