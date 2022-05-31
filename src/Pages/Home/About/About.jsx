@@ -5,6 +5,7 @@ import img from "../../../Assets/Img/s.jpg";
 const About = () => {
   return (
     <div
+      id="about"
       style={{ background: "#191919", height: "100vh" }}
       className="flex items-center lg:px-20"
     >

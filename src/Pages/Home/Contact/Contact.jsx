@@ -3,7 +3,7 @@ import img from "../../../Assets/Img/s.jpg";
 
 const Contact = () => {
   return (
-    <div style={{ background: "#191919" }}>
+    <div id="contact" style={{ background: "#191919" }}>
       <div class="hero py-20">
         <div class="hero-content flex-col lg:flex-row-reverse w-full justify-between p-0">
           <img

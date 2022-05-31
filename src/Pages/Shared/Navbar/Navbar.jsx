@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div class="navbar bg-black">
+    <div class="navbar bg-black sticky top-0 z-10">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -28,22 +28,22 @@ const Navbar = () => {
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-black rounded-box w-52 text-white font"
           >
             <li>
-              <a>Home</a>
+              <a href="#">Home</a>
             </li>
             <li>
-              <a>About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a>Service</a>
+              <a href="#service">Service</a>
             </li>
             <li>
-              <a>Portfolio</a>
+              <a href="#portfolio">Portfolio</a>
             </li>
             <li>
-              <a>Blog</a>
+              <a href="#blog">Blog</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -54,22 +54,22 @@ const Navbar = () => {
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0 text-white font">
           <li>
-            <a>Home</a>
+            <a href="#">Home</a>
           </li>
           <li>
-            <a>About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a>Service</a>
+            <a href="#service">Service</a>
           </li>
           <li>
-            <a>Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a>Blog</a>
+            <a href="#blog">Blog</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

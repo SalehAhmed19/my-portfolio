@@ -9,7 +9,11 @@ const Services = () => {
       .then((data) => setServices(data));
   }, []);
   return (
-    <div style={{ background: "#101010" }} className="pt-16 font py-20">
+    <div
+      id="service"
+      style={{ background: "#101010" }}
+      className="pt-16 font py-20"
+    >
       <div className="w-1/2 mx-auto text-gray-400">
         <h2 className="text-3xl lg:text-5xl font-bold font text-center text-white">
           My Awesome Services
