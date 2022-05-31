@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div style={{ background: "#191919" }} className="py-20">
+    <div id="project" style={{ background: "#191919" }} className="py-20">
       <h2 className="text-3xl lg:text-5xl font-bold text-center text-white font">
         My Latest Projects
       </h2>
