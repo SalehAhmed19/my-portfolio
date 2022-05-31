@@ -74,7 +74,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div class="navbar-end">
-        <a href="#contact" class="btn bg-black">
+        <a href="#contact" class="btn bg-black font">
           Contact Now
         </a>
       </div>
