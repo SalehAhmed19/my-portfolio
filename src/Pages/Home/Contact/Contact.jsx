@@ -4,10 +4,14 @@ import img from "../../../Assets/Img/s.jpg";
 const Contact = () => {
   return (
     <div style={{ background: "#191919" }}>
-      <div class="hero min-h-screen">
-        <div class="hero-content flex-col lg:flex-row-reverse w-full justify-between">
-          <img src={img} class="max-w-sm rounded-lg shadow-2xl" alt="" />
-          <div className="w-1/2">
+      <div class="hero py-20">
+        <div class="hero-content flex-col lg:flex-row-reverse w-full justify-between p-0">
+          <img
+            src={img}
+            class="max-w-sm rounded-lg shadow-2xl hidden lg:block"
+            alt=""
+          />
+          <div className="w-full px-3 lg:w-1/2">
             <h2 className="font text-5xl font-bold text center text-white my-5">
               Hire Me.
             </h2>
