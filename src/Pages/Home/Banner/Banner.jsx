@@ -40,7 +40,11 @@ const Banner = () => {
         </div>
       </div>
       <div className="hidden lg:block">
-        <img src={s} className="w-full" alt="" />
+        <div class="avatar">
+          <div class="w-full rounded-full ring ring-red-500 ring-offset-red-500 ring-offset-2 m-5">
+            <img src={s} alt="" />
+          </div>
+        </div>
       </div>
     </div>
   );
