@@ -12,7 +12,7 @@ const Contact = () => {
             alt=""
           />
           <div className="w-full px-3 lg:w-1/2">
-            <h2 className="font text-5xl font-bold text center text-white my-5">
+            <h2 className="font text-3xl lg:text-5xl font-bold text center text-white my-5">
               Hire Me.
             </h2>
             <p className="text-gray-400 font">

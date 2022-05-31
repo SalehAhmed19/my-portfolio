@@ -12,7 +12,9 @@ const About = () => {
         <img src={img} alt="" />
       </div>
       <div className="p-10">
-        <h2 className="font-bold text-5xl font text-white">About Me</h2>
+        <h2 className="font-bold text-3xl lg:text-5xl font text-white">
+          About Me
+        </h2>
         <p className="font text-xl text-gray-400">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered <a href="#">alteration</a> in some form, by
