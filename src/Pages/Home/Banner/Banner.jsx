@@ -41,7 +41,7 @@ const Banner = () => {
       </div>
       <div className="hidden lg:block">
         <div class="avatar">
-          <div class="w-full rounded-full ring ring-red-500 ring-offset-red-500 ring-offset-2 m-5">
+          <div class="w-full mask mask-hexagon">
             <img src={s} alt="" />
           </div>
         </div>
