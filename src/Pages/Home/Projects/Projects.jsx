@@ -19,7 +19,7 @@ const Projects = () => {
       <p className="font text-gray-400 text-center my-5">
         There are some of my latest projects
       </p>
-      <div className="w-96 mx-auto">
+      <div className="w-32 lg:w-96 mx-auto">
         <Swiper
           effect={"cards"}
           grabCursor={true}
