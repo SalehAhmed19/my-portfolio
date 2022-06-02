@@ -8,7 +8,7 @@ const Expert = () => {
           <div>HTML </div>
           <div>
             <progress
-              class="progress progress-error w-56"
+              className="progress progress-error w-56"
               value="90"
               max="100"
             ></progress>
@@ -18,7 +18,7 @@ const Expert = () => {
           <div>CSS </div>
           <div>
             <progress
-              class="progress progress-error w-56"
+              className="progress progress-error w-56"
               value="90"
               max="100"
             ></progress>
@@ -28,7 +28,7 @@ const Expert = () => {
           <div>JavaScript </div>
           <div>
             <progress
-              class="progress progress-error w-56"
+              className="progress progress-error w-56"
               value="85"
               max="100"
             ></progress>
@@ -38,7 +38,7 @@ const Expert = () => {
           <div>ReactJS </div>
           <div>
             <progress
-              class="progress progress-error w-56"
+              className="progress progress-error w-56"
               value="80"
               max="100"
             ></progress>

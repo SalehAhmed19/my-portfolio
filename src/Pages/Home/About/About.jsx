@@ -17,10 +17,10 @@ const About = () => {
           About Me
         </h2>
         <p className="font text-xl text-gray-400">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered <a href="#">alteration</a> in some form, by
-          injected humour, or randomised words which dont look even slightly
-          believable. If you are going to use a passage of Lorem Ipsum,
+          Hey, this is Saleh Ahmed Mahin. I am studying Diploma in Engineering
+          in Computer Department. I am a full stack developer with experience
+          working with MangDB, Express, React, Node (MERN) as well as working on
+          multiple CSS frameworks.
         </p>
         <div className="my-4 font">
           <h3 className="text-white font-bold text-2xl">Skills</h3>

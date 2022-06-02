@@ -8,7 +8,7 @@ const Comfortable = () => {
           <div>NodeJS </div>
           <div>
             <progress
-              class="progress progress-error w-56"
+              className="progress progress-error w-56"
               value="75"
               max="100"
             ></progress>
@@ -18,7 +18,17 @@ const Comfortable = () => {
           <div>MongoDB </div>
           <div>
             <progress
-              class="progress progress-error w-56"
+              className="progress progress-error w-56"
+              value="75"
+              max="100"
+            ></progress>
+          </div>
+        </li>
+        <li>
+          <div>ExpressJS </div>
+          <div>
+            <progress
+              className="progress progress-error w-56"
               value="75"
               max="100"
             ></progress>
