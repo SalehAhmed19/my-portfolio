@@ -1,7 +1,23 @@
 import React from "react";
+import emailjs from "emailjs-com";
 import img from "../../../Assets/Img/s.jpg";
 
 const Contact = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_nbxrr6f",
+        "template_7qk1sj8",
+        e.target,
+        "6TQfLm90poJK5L3S1"
+      )
+      .then((res) => {
+        console.log(res);
+        e.target.reset();
+      })
+      .catch((err) => console.log(err));
+  };
   return (
     <div id="contact" style={{ background: "#191919" }}>
       <div className="hero py-20">
@@ -23,24 +39,28 @@ const Contact = () => {
                 saleh.ahmed.mahin@gmail.com
               </span>
             </p>
-            <form>
+            <form onSubmit={handleSubmit} className="text-gray-300">
               <input
                 type="text"
                 placeholder="Your Name"
+                name="name"
                 className="input input-bordered w-full bg-transparent my-4"
               />
               <input
                 type="email"
+                name="user_email"
                 placeholder="Your Email"
                 className="input input-bordered w-full bg-transparent my-4"
               />
               <input
                 type="text"
                 placeholder="Write a subject"
+                name="subject"
                 className="input input-bordered w-full bg-transparent my-4"
               />
               <textarea
                 className="textarea textarea-bordered bg-transparent w-full"
+                name="message"
                 placeholder="Your Message"
               ></textarea>
               <input
