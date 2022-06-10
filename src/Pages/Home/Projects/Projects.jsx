@@ -1,16 +1,22 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCards } from "swiper";
+import React, { useState, useEffect } from "react";
+// Import Swiper React components
+import { Swiper } from "swiper/react";
+
+// Import Swiper styles
 import "swiper/css";
-import "swiper/css/effect-coverflow";
+import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import "swiper/css/effect-cards";
-import project01 from "../../../Assets/Projects/project-01.png";
-import project02 from "../../../Assets/Projects/project-02.png";
-import project03 from "../../../Assets/Projects/project-03.png";
-import project04 from "../../../Assets/Projects/project-04.png";
+import { FreeMode, Pagination } from "swiper";
+import Project from "./Project";
+import "./Projects.css";
 
 const Projects = () => {
+  const [projects, setProjects] = useState([]);
+  useEffect(() => {
+    fetch("projects.json")
+      .then((res) => res.json())
+      .then((data) => setProjects(data));
+  }, []);
   return (
     <div id="project" style={{ background: "#191919" }} className="py-20">
       <h2 className="text-3xl lg:text-5xl font-bold text-center text-white font">
@@ -19,33 +25,22 @@ const Projects = () => {
       <p className="font text-gray-400 text-center my-5">
         There are some of my latest projects
       </p>
-      <div className="w-32 lg:w-96 mx-auto">
+      <div>
         <Swiper
-          effect={"cards"}
-          grabCursor={true}
-          modules={[EffectCards]}
+          slidesPerView={3}
+          spaceBetween={30}
+          freeMode={true}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[FreeMode, Pagination]}
           className="mySwiper"
         >
-          <SwiperSlide>
-            <a href="https://cars-empire.web.app/">
-              <img className="w-52" src={project02} alt="" />
-            </a>
-          </SwiperSlide>
-          <SwiperSlide>
-            <a href="https://fix-manufacturer.web.app/">
-              <img className="w-52" src={project01} alt="" />
-            </a>
-          </SwiperSlide>
-          <SwiperSlide>
-            <a href="https://convention-center-s-a-dev.netlify.app/">
-              <img className="w-52" src={project03} alt="" />
-            </a>
-          </SwiperSlide>
-          <SwiperSlide>
-            <a href="https://dental-pro-44da6.web.app/">
-              <img className="w-52" src={project04} alt="" />
-            </a>
-          </SwiperSlide>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-5">
+            {projects.map((project) => (
+              <Project key={project._id} project={project}></Project>
+            ))}
+          </div>
         </Swiper>
       </div>
     </div>

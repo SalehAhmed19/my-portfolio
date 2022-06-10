@@ -1,0 +1,6 @@
+.hover-effect{
+    background-color: #101010;
+}
+.hover-effect:hover{
+    background-color: #ff000018;
+}
