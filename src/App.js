@@ -2,8 +2,9 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Comfortable from "./Pages/Home/About/Comfortable";
 import Expert from "./Pages/Home/About/Expert";
-import Familier from "./Pages/Home/About/Familier";
 import Home from "./Pages/Home/Home";
+import P from "./Pages/Home/Projects/P";
+import Footer from "./Pages/Shared/Footer/Footer";
 import Navbar from "./Pages/Shared/Navbar/Navbar";
 
 function App() {
@@ -14,9 +15,10 @@ function App() {
         <Route path="/" element={<Home />}>
           <Route index element={<Expert />}></Route>
           <Route path="/comfortable" element={<Comfortable />}></Route>
-          {/* <Route path="/familier" element={<Familier />}></Route> */}
         </Route>
+        <Route path="/projects/:id" element={<P />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

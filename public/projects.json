@@ -3,24 +3,24 @@
       "_id": 1,
       "img": "https://i.ibb.co/zNMbBX0/project-01.png",
       "name": "Fix-Manufacture",
-      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus similique praesentium deserunt modi."
+      "des":"This is a manufacturer website where user can buy parts or tools. There are six section on homepage include Navbar, Banner, Parts, Reviews, Footer. There are 4 routes on navbar. 3 are public and 1 is private route (Dashboard). When user logged in they'll see this Dashboard Route. Google and Email password login and authentication system are implemented. Card payment method are implemented. User can use card for payment. There are a Dashboard route which is private. After login user can see this. On Dashboard there are three (My Orders, Add Review, My Profile) nested routes for normal user and 5 nested routes for admin (All Products, Add Products, Manage Orders, Make admin, My Profile).A normal user can see there order and can pay from My Orders route, user can post a review from Add Review route and can update his profile on My Profile Route. An admin can add products form Add Products route, can manage product (update, delete) from Manage Product route, can make an admin or remove an admin from Make Admin route"
     },
     {
       "_id": 2,
       "img": "https://i.ibb.co/L6sj10F/project-02.png",
       "name": "Cars-Empire",
-      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus similique praesentium deserunt modi."
+      "des":"This is a manufacturer website where user can buy parts or tools. There are six section on homepage include Navbar, Banner, Parts, Reviews, Footer. There are 4 routes on navbar. 3 are public and 1 is private route (Dashboard). When user logged in they'll see this Dashboard Route. Google and Email password login and authentication system are implemented. Card payment method are implemented. User can use card for payment. There are a Dashboard route which is private. After login user can see this. On Dashboard there are three (My Orders, Add Review, My Profile) nested routes for normal user and 5 nested routes for admin (All Products, Add Products, Manage Orders, Make admin, My Profile).A normal user can see there order and can pay from My Orders route, user can post a review from Add Review route and can update his profile on My Profile Route. An admin can add products form Add Products route, can manage product (update, delete) from Manage Product route, can make an admin or remove an admin from Make Admin route"
     },
     {
       "_id": 3,
       "img": "https://i.ibb.co/zQYYNbp/project-04.png",
       "name": "Dental-Pro",
-      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus similique praesentium deserunt modi."
+      "des":"This is a manufacturer website where user can buy parts or tools. There are six section on homepage include Navbar, Banner, Parts, Reviews, Footer. There are 4 routes on navbar. 3 are public and 1 is private route (Dashboard). When user logged in they'll see this Dashboard Route. Google and Email password login and authentication system are implemented. Card payment method are implemented. User can use card for payment. There are a Dashboard route which is private. After login user can see this. On Dashboard there are three (My Orders, Add Review, My Profile) nested routes for normal user and 5 nested routes for admin (All Products, Add Products, Manage Orders, Make admin, My Profile).A normal user can see there order and can pay from My Orders route, user can post a review from Add Review route and can update his profile on My Profile Route. An admin can add products form Add Products route, can manage product (update, delete) from Manage Product route, can make an admin or remove an admin from Make Admin route"
     },
     {
         "_id":4,
         "img":"https://i.ibb.co/VjGwSHB/project-03.png",
         "name":"Convention-Center",
-        "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus similique praesentium deserunt modi."
+        "des":"This is a manufacturer website where user can buy parts or tools. There are six section on homepage include Navbar, Banner, Parts, Reviews, Footer. There are 4 routes on navbar. 3 are public and 1 is private route (Dashboard). When user logged in they'll see this Dashboard Route. Google and Email password login and authentication system are implemented. Card payment method are implemented. User can use card for payment. There are a Dashboard route which is private. After login user can see this. On Dashboard there are three (My Orders, Add Review, My Profile) nested routes for normal user and 5 nested routes for admin (All Products, Add Products, Manage Orders, Make admin, My Profile).A normal user can see there order and can pay from My Orders route, user can post a review from Add Review route and can update his profile on My Profile Route. An admin can add products form Add Products route, can manage product (update, delete) from Manage Product route, can make an admin or remove an admin from Make Admin route"
     }
   ]

@@ -13,7 +13,7 @@ import "./Projects.css";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("projects.json")
+    fetch("https://whispering-dawn-97364.herokuapp.com/projects")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
@@ -23,7 +23,7 @@ const Projects = () => {
         My Latest Projects
       </h2>
       <p className="font text-gray-400 text-center my-5">
-        There are some of my latest projects
+        There are some of my latest projects {projects.length}
       </p>
       <div>
         <Swiper

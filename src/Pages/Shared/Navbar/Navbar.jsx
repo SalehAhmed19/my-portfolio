@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../../Assets/Img/logo.png";
 import "./Navbar.css";
 
@@ -28,7 +29,9 @@ const Navbar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-black rounded-box w-52 text-white font"
           >
             <li>
-              <a href="#">Home</a>
+              <Link to="/" href="#">
+                Home
+              </Link>
             </li>
             <li>
               <a href="#about">About</a>
@@ -54,7 +57,9 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0 text-white font">
           <li>
-            <a href="#">Home</a>
+            <Link to="/" href="#">
+              Home
+            </Link>
           </li>
           <li>
             <a href="#about">About</a>
