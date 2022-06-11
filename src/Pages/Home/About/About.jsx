@@ -1,6 +1,17 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBootstrap,
+  faCss3,
+  faGithub,
+  faHtml5,
+  faJs,
+  faNodeJs,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import img from "../../../Assets/Img/s.jpg";
+import "./About.css";
 
 const About = () => {
   return (
@@ -24,16 +35,38 @@ const About = () => {
         </p>
         <div className="my-4 font">
           <h3 className="text-white font-bold text-2xl">Skills</h3>
-          <div className="text-white flex">
-            <Link to="/" className="pl-7">
-              Expert
-            </Link>
-            <Link to="/comfortable" className="pl-7">
-              Comfortable
-            </Link>
-          </div>
-          <div className="pl-7">
-            <Outlet />
+          <div
+            style={{ background: "#101010" }}
+            className="flex justify-between my-5 p-5 rounded-md"
+          >
+            <FontAwesomeIcon
+              icon={faReact}
+              className="h-10 w-10 lg:h-20 lg:w-20 hover"
+            />
+            <FontAwesomeIcon
+              icon={faNodeJs}
+              className="h-10 w-10 lg:h-20 lg:w-20 hover"
+            />
+            <FontAwesomeIcon
+              icon={faHtml5}
+              className="h-10 w-10 lg:h-20 lg:w-20 hover"
+            />
+            <FontAwesomeIcon
+              icon={faCss3}
+              className="h-10 w-10 lg:h-20 lg:w-20 hover"
+            />
+            <FontAwesomeIcon
+              icon={faBootstrap}
+              className="h-10 w-10 lg:h-20 lg:w-20 hover"
+            />
+            <FontAwesomeIcon
+              icon={faGithub}
+              className="h-10 w-10 lg:h-20 lg:w-20 hover"
+            />
+            <FontAwesomeIcon
+              icon={faJs}
+              className="h-10 w-10 lg:h-20 lg:w-20 hover"
+            />
           </div>
         </div>
       </div>
