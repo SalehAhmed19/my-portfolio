@@ -1,4 +1,5 @@
 import React from "react";
+import bg from "../../../Assets/Img/connected-vertices.gif";
 import s from "../../../Assets/Img/s.jpg";
 import "./Banner.css";
 import Typical from "react-typical";
@@ -8,7 +9,8 @@ const Banner = () => {
     <>
       <div
         style={{
-          backgroundColor: "#000",
+          background: `url(${bg})`,
+          backgroundSize: "cover",
         }}
         className="flex justify-between"
       >
