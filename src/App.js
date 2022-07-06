@@ -4,7 +4,6 @@ import Comfortable from "./Pages/Home/About/Comfortable";
 import Expert from "./Pages/Home/About/Expert";
 import Home from "./Pages/Home/Home";
 import P from "./Pages/Home/Projects/P";
-import Footer from "./Pages/Shared/Footer/Footer";
 import Navbar from "./Pages/Shared/Navbar/Navbar";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
         </Route>
         <Route path="/projects/:id" element={<P />}></Route>
       </Routes>
-      <Footer />
     </div>
   );
 }
