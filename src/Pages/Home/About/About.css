@@ -1,4 +1,28 @@
-.hover:hover{
-    color: #EF4444;
+.hover-react:hover{
+    color: #5CCEED;
+    transition: ease-in 0.2s;
+}
+.hover-node:hover{
+    color: #84BA04;
+    transition: ease-in 0.2s;
+}
+.hover-html:hover{
+    color: #EF460A;
+    transition: ease-in 0.2s;
+}
+.hover-css:hover{
+    color: #2660E4;
+    transition: ease-in 0.2s;
+}
+.hover-bootstrap:hover{
+    color: #7512ED;
+    transition: ease-in 0.2s;
+}
+.hover-github:hover{
+    color: #FFF;
+    transition: ease-in 0.2s;
+}
+.hover-javascript:hover{
+    color: #EBD31C;
     transition: ease-in 0.2s;
 }

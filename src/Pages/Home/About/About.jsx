@@ -9,7 +9,6 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
 import img from "../../../Assets/Img/s.jpg";
 import "./About.css";
 
@@ -41,31 +40,31 @@ const About = () => {
           >
             <FontAwesomeIcon
               icon={faReact}
-              className="h-10 w-10 lg:h-20 lg:w-20 hover"
+              className="h-10 w-10 lg:h-20 lg:w-20 hover-react"
             />
             <FontAwesomeIcon
               icon={faNodeJs}
-              className="h-10 w-10 lg:h-20 lg:w-20 hover"
+              className="h-10 w-10 lg:h-20 lg:w-20 hover-node"
             />
             <FontAwesomeIcon
               icon={faHtml5}
-              className="h-10 w-10 lg:h-20 lg:w-20 hover"
+              className="h-10 w-10 lg:h-20 lg:w-20 hover-html"
             />
             <FontAwesomeIcon
               icon={faCss3}
-              className="h-10 w-10 lg:h-20 lg:w-20 hover"
+              className="h-10 w-10 lg:h-20 lg:w-20 hover-css"
             />
             <FontAwesomeIcon
               icon={faBootstrap}
-              className="h-10 w-10 lg:h-20 lg:w-20 hover"
+              className="h-10 w-10 lg:h-20 lg:w-20 hover-bootstrap"
             />
             <FontAwesomeIcon
               icon={faGithub}
-              className="h-10 w-10 lg:h-20 lg:w-20 hover"
+              className="h-10 w-10 lg:h-20 lg:w-20 hover-github"
             />
             <FontAwesomeIcon
               icon={faJs}
-              className="h-10 w-10 lg:h-20 lg:w-20 hover"
+              className="h-10 w-10 lg:h-20 lg:w-20 hover-javascript"
             />
           </div>
         </div>
