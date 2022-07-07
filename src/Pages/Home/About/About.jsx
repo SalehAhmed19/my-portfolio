@@ -38,34 +38,48 @@ const About = () => {
             style={{ background: "#101010" }}
             className="flex justify-between my-5 p-5 rounded-md"
           >
-            <FontAwesomeIcon
-              icon={faReact}
-              className="h-10 w-10 lg:h-20 lg:w-20 hover-react"
-            />
-            <FontAwesomeIcon
-              icon={faNodeJs}
-              className="h-10 w-10 lg:h-20 lg:w-20 hover-node"
-            />
-            <FontAwesomeIcon
-              icon={faHtml5}
-              className="h-10 w-10 lg:h-20 lg:w-20 hover-html"
-            />
-            <FontAwesomeIcon
-              icon={faCss3}
-              className="h-10 w-10 lg:h-20 lg:w-20 hover-css"
-            />
-            <FontAwesomeIcon
-              icon={faBootstrap}
-              className="h-10 w-10 lg:h-20 lg:w-20 hover-bootstrap"
-            />
-            <FontAwesomeIcon
-              icon={faGithub}
-              className="h-10 w-10 lg:h-20 lg:w-20 hover-github"
-            />
-            <FontAwesomeIcon
-              icon={faJs}
-              className="h-10 w-10 lg:h-20 lg:w-20 hover-javascript"
-            />
+            <div class="tooltip" data-tip="75%">
+              <FontAwesomeIcon
+                icon={faReact}
+                className="h-10 w-10 lg:h-20 lg:w-20 hover-react"
+              />
+            </div>
+            <div class="tooltip" data-tip="45%">
+              <FontAwesomeIcon
+                icon={faNodeJs}
+                className="h-10 w-10 lg:h-20 lg:w-20 hover-node"
+              />
+            </div>
+            <div class="tooltip" data-tip="93%">
+              <FontAwesomeIcon
+                icon={faHtml5}
+                className="h-10 w-10 lg:h-20 lg:w-20 hover-html"
+              />
+            </div>
+            <div class="tooltip" data-tip="90%">
+              <FontAwesomeIcon
+                icon={faCss3}
+                className="h-10 w-10 lg:h-20 lg:w-20 hover-css"
+              />
+            </div>
+            <div class="tooltip" data-tip="95%">
+              <FontAwesomeIcon
+                icon={faBootstrap}
+                className="h-10 w-10 lg:h-20 lg:w-20 hover-bootstrap"
+              />
+            </div>
+            <div class="tooltip" data-tip="40%">
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="h-10 w-10 lg:h-20 lg:w-20 hover-github"
+              />
+            </div>
+            <div class="tooltip" data-tip="75%">
+              <FontAwesomeIcon
+                icon={faJs}
+                className="h-10 w-10 lg:h-20 lg:w-20 hover-javascript"
+              />
+            </div>
           </div>
         </div>
       </div>
